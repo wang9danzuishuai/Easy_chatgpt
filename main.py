@@ -1,7 +1,7 @@
 import openai
 
 # Set your API key
-openai.api_key = "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"
+openai.api_key = "your key"
 # Use the GPT-3 model
 message = input("请输入您的问题： ")
 completion = openai.Completion.create(
